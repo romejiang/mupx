@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "mupx",
+      ""
+    ]
+  ],
+  "_cnpm_publish_time": 1443177961330,
+  "_from": "mupx@*",
+  "_id": "mupx@1.5.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/mupx",
+  "_nodeVersion": "4.1.0",
+  "_npmUser": {
+    "email": "arunoda.susiripala@gmail.com",
+    "name": "arunoda"
+  },
+  "_npmVersion": "2.14.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "mupx",
+    "raw": "mupx",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/mupx/download/mupx-1.5.3.tgz",
+  "_shasum": "f2f37b0d276212c457f50e64c4b6184d3c2e3198",
+  "_shrinkwrap": null,
+  "_spec": "mupx",
+  "_where": "",
+  "author": {
+    "email": "arunoda.susiripala@gmail.com",
+    "name": "Arunoda Susiripala"
+  },
+  "bin": {
+    "mupx": "./bin/mup"
+  },
+  "bugs": {
+    "url": "https://github.com/arunoda/meteor-up/issues"
+  },
+  "dependencies": {
+    "archiver": "0.14.x",
+    "async": "^0.9.0",
+    "cjson": "0.3.x",
+    "colors": "0.6.x",
+    "minimist": "1.1.1",
+    "nodemiral": "^1.1.1",
+    "rimraf": "2.x.x",
+    "underscore": "1.7.0",
+    "update-notifier": "0.4.x",
+    "uuid": "1.4.x"
+  },
+  "description": "Production Quality Meteor Deployments",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "noattachment": false,
+    "shasum": "f2f37b0d276212c457f50e64c4b6184d3c2e3198",
+    "size": 16113,
+    "tarball": "http://registry.npm.taobao.org/mupx/download/mupx-1.5.3.tgz"
+  },
+  "gitHead": "e5c45821fcd3e69eb588a13c92a3785eaa1b1a47",
+  "homepage": "https://github.com/arunoda/meteor-up",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "arunoda",
+      "email": "arunoda.susiripala@gmail.com"
+    }
+  ],
+  "name": "mupx",
+  "optionalDependencies": {},
+  "publish_time": 1443177961330,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arunoda/meteor-up.git"
+  },
+  "scripts": {},
+  "version": "1.5.3"
+}
