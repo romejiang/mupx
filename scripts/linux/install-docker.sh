@@ -8,15 +8,12 @@ set -e
 if [ ! "$haveDocker" ]; then
 
   # Remove the lock
-  set +e
-  sudo rm /var/lib/dpkg/lock > /dev/null
-  sudo rm /var/cache/apt/archives/lock > /dev/null
-  sudo dpkg --configure -a
-  set -e
 
   # Required to update system
-  sudo apt-get update
+  sudo yum -y install curl
 
   # Install docker
-  wget -qO- https://get.docker.com/ | sudo sh
+  curl -fsSL https://get.docker.com/ | sh
+  sleep 3
+  service docker start
 fi
