@@ -1,6 +1,13 @@
 #!/bin/bash
 
 set -e
+
+listen=`netstat -na|grep 27017| awk '{print $6}'`
+if [ "$listen" == "LISTEN" ];
+then
+	echo "mongodb is exist."
+   	exit
+fi
 # we use this data directory for the backward compatibility
 # older mup uses mongodb from apt-get and they used this data directory
 sudo mkdir -p /var/lib/mongodb

@@ -31,7 +31,7 @@ fi
 
 # setup the new version
 sudo mkdir current
-if [[ -d last ]]; then
+if [[ -d last/cfs ]]; then
   sudo mv last/cfs current/
 fi
 sudo cp tmp/bundle.tar.gz current/
